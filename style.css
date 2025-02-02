@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root {
+  --mobile: 375px;
+  --desktop: 1440px;
+  
+  --White: hsl(0, 0%, 100%);
+  
+  --Slate-300: hsl(212, 45%, 89%);
+  --Slate-500: hsl(216, 15%, 48%);
+  --Slate-900: hsl(218, 44%, 22%);
+  --Font-size-paragraph: 15px;
+  
+  
+  --Family: 'Outfit', sans-serif;
+}
+
+body {
+  font-family: var(--Family);
+  font-size: var(--Font-size-paragraph);
+  margin: 0;
+  padding: 0;
+  background-color: var(--Slate-300);
+  color: var(--Slate-900);
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--White);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px -10px rgba(72, 84, 159, 0.5);
+  width: 375px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+figure figcaption {
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+figure h1 {
+  font-size: 1.5rem;
+}
+
+figure p {
+  font-size: var(--Font-size-paragraph);
+  color: var(--Slate-500);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
