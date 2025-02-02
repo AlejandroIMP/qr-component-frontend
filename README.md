@@ -38,5 +38,5 @@ I learned about semantic HTML and CSS with flexbox
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/AlejandroIMP)
-- Twitter - [@yourusername](https://x.com/AlejandroRtw)
+- Frontend Mentor - [@AlejandroIMP](https://www.frontendmentor.io/profile/AlejandroIMP)
+- Twitter - [@AlejandroRTW](https://x.com/AlejandroRtw)
